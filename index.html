@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>juegosWii</title>
+</head>
+
+<body>
+    
+    <div>
+        <section class="container mt-5">
+            <h1 class="text-center">Catalogo de juegos</h1>
+            <hr>
+            <br>
+            <div id="filtro">
+            </div>
+            <div class="iten row " id="stockProductos">
+            </div>
+        </section>
+    
+        <section class="container">
+            <div class="cartdcarrito" id="tienda">
+                
+            </div>
+        </section>
+         <div class="listaFetch"> <a  href="fetch.html" ><button>Lista de productos con fetch</button></a></div>
+        <section class="container mt-5">
+            <h1 class="text-center">Carrito </h1>
+            <h3 class="text-center">cantidad <span id="contadorcarrito"> 0 </span></h3>
+            <div class="juegosComprados" id="carritocontenedor">
+            </div>
+            <p class="precioProducto">Total: $ <span id="preciototal"> 0 </span> </p>
+            <button
+                class="btn btn-success ml-auto comprarButton"
+                id="confirmarCompra"
+                type="button"
+              >
+                Comprar
+              </button>
+              
+    
+</section>
+
+   <!-- inicia FOOTER -->
+   <footer >
+    <p class="text-center m-0 text-muted">Tienda video juegos by MGR</p>
+  </footer>
+  <!-- termina FOOTER -->
+
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="./js/juegos.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

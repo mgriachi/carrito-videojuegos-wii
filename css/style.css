@@ -1,0 +1,77 @@
+
+* {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.boton {
+    background-color: rgb(49, 114, 49);
+    color: #fff;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.containerjuegos {
+   border-color: black;
+}
+
+.boton:hover {
+    background-color: rgb(33, 42, 33);
+    transform: scale(110%);
+    color: #fff;
+}
+
+.cartdcarrito{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.cartGame{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgba(131, 130, 130, 0.699);
+}
+.cardcompradas{
+    margin: 20px;
+}
+.juegosComprados{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+
+}
+.botonAgregar{
+    margin-bottom: 50px;
+}
+
+.buttonEliminar{
+    background-color: rgb(129, 13, 13);
+    color: #fff;
+
+}
+.buttonEliminar:hover{
+    background-color: rgb(34, 2, 2);
+    color: #fff;
+    transform: scale(120%);
+
+}
+.listaFetch a button{
+    background-color:rgb(9, 93, 3);
+    color: aliceblue;
+    
+}
+
+.listaFetch a button:hover{
+    background-color: rgb(23, 171, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(105%);
+}
